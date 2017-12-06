@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="235.0" prefWidth="285.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="fxdemo.checkbox.CheckBoxController">
+   <children>
+      <JFXCheckBox fx:id="ckbJava" layoutX="36.0" layoutY="43.0" onAction="#checkEvent" prefHeight="2.0" prefWidth="65.0" text="Java" />
+      <JFXCheckBox fx:id="ckbNet" layoutX="36.0" layoutY="80.0" onAction="#checkEvent" text=".Net" />
+      <JFXCheckBox fx:id="ckbPython" layoutX="36.0" layoutY="118.0" onAction="#checkEvent" text="Python" />
+      <JFXCheckBox fx:id="ckbNode" layoutX="36.0" layoutY="152.0" onAction="#checkEvent" text="Node.js" />
+      <Label fx:id="lblSeleccionado" layoutX="151.0" layoutY="29.0" prefHeight="141.0" prefWidth="119.0" text="Seleccionado" />
+      <Label fx:id="lblCount" layoutX="34.0" layoutY="208.0" prefHeight="17.0" prefWidth="220.0" text="Contador" />
+   </children>
+</AnchorPane>

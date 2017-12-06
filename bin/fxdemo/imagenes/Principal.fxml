@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="350.0" prefWidth="481.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <ImageView fitHeight="231.0" fitWidth="547.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="20.0" layoutY="269.0" promptText="Nombre" />
+      <TextField accessibleRole="PASSWORD_FIELD" layoutX="18.0" layoutY="307.0" promptText="Contraseña" />
+   </children>
+</AnchorPane>
