@@ -23,7 +23,6 @@ public class FileChooserController {
 	private JFXListView<String> lvArchivos;
 	 
 	
-	@SuppressWarnings("unused")
 	private File defaultDirectory = null;
 	
 	public void btnDyrectory() {
